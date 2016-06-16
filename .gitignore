@@ -1,0 +1,43 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+
+# Data
+# algs4-data/
+target/
+TAGS
+src/main/resources/algs4-data/2Kints.txt
+src/main/resources/algs4-data/largeT.txt
+src/main/resources/algs4-data/largeW.txt
+src/main/resources/algs4-data/pi.txt
+src/main/resources/algs4-data/movies.txt
+src/main/resources/algs4-data/brownian.txt
+src/main/resources/algs4-data/8Kints.txt
+src/main/resources/algs4-data/ip.csv
+src/main/resources/algs4-data/rs1423.txt
+src/main/resources/algs4-data/largeG.txt
+src/main/resources/algs4-data/largeEWD.txt
+src/main/resources/algs4-data/mobydick.txt
+src/main/resources/algs4-data/tale.txt
+src/main/resources/algs4-data/mediumEWG.txt
+src/main/resources/algs4-data/kw1260.txt
+src/main/resources/algs4-data/largeDG.txt
+src/main/resources/algs4-data/UPC.csv
+src/main/resources/algs4-data/mediumEWD.txt
+src/main/resources/algs4-data/largeUF.txt
+src/main/resources/algs4-data/diffusion.txt
+src/main/resources/algs4-data/largeEWG.txt
+src/main/resources/algs4-data/leipzig1M.txt
+src/main/resources/algs4-data/4Kints.txt
+src/main/resources/algs4-data/DJIA.csv

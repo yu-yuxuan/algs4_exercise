@@ -2,6 +2,7 @@
 // 25 and traces the method calls. Each time the recursive method is called, print the argument values lo and hi, indented by the depth of the recursion. Hint: Add an argument
 //     to the recursive method that keeps track of the depth.
 package edu.princeton.cs.algs4;
+import java.util.Arrays;
 public class Ex_1_1_22 {
     public static int rank(int key, int[] a,int depth)
         { return rank(key, a, 0, a.length - 1,depth); }
@@ -15,7 +16,7 @@ public class Ex_1_1_22 {
                 for (int i = 0; i < depth; i++) {
                     StdOut.print(" ");
                 }
-                StdOut.printf("%d %d",lo,hi);
+                StdOut.printf("%d %d\n",lo,hi);
                 return rank(key, a, lo, mid - 1,depth);
             }
             else if (key > a[mid]) {
@@ -23,7 +24,7 @@ public class Ex_1_1_22 {
                 for (int i = 0; i < depth; i++) {
                     StdOut.print(" ");
                 }
-                StdOut.printf("%d %d",lo,hi);
+                StdOut.printf("%d %d\n",lo,hi);
                 return rank(key, a, mid + 1, hi,depth);
             }
             else {
@@ -31,7 +32,7 @@ public class Ex_1_1_22 {
                 for (int i = 0; i < depth; i++) {
                     StdOut.print(" ");
                 }
-                StdOut.printf("%d %d",lo,hi);
+                StdOut.printf("%d %d\n",lo,hi);
                 return mid;
             }
         }

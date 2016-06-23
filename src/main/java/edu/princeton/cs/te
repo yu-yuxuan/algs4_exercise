@@ -1,0 +1,39 @@
+.
+├── 1-Fundamentals
+│   ├── 1-1-BasicProgModel
+│   ├── 1-2-DataAbstraction
+│   ├── 1-3-BagsQueuesStacks
+│   ├── 1-4-AnalysisOfAlgorithms
+│   └── 1-5-UnionFind
+├── 2-Sorting
+│   ├── 2-1-ElementarySorts
+│   ├── 2-2-Mergesort
+│   ├── 2-3-Quicksort
+│   └── 2-4-PriorityQueues
+├── 3-Searching
+│   ├── 3-1-SymbolTables
+│   ├── 3-2-BinarySearchTrees
+│   ├── 3-3-BalancedSearchTrees
+│   ├── 3-4-HashTables
+│   └── 3-5-Applications
+├── 4-Graphs
+│   ├── 4-1-UndirectedGraphs
+│   ├── 4-2-DirectedGraphs
+│   ├── 4-3-MinSpanningTrees
+│   └── 4-4-ShortestPaths
+├── 5-Strings
+│   ├── 5-1-StringSorts
+│   ├── 5-2-Tries
+│   ├── 5-3-SubstringSearch
+│   ├── 5-4-RegularExpressions
+│   └── 5-5-DataCompression
+├── 6-Context
+│   ├── 6-1-EventDrivenSim
+│   ├── 6-2-BTrees
+│   ├── 6-3-SuffixArrays
+│   ├── 6-4-Maxflow
+│   └── 6-5-Reductions
+├── algs4
+└── YY_test
+
+36 directories

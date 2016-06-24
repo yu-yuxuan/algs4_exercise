@@ -1,4 +1,4 @@
-// 1.1.27 Binomial distribution. Estimate the number of recursive calls that would be
+// 1.1.27b Binomial distribution. Estimate the number of recursive calls that would be
 // used by the code
 // public static double binomial(int N, int k, double p)
 // {
@@ -24,7 +24,7 @@
 
 
 package edu.princeton.cs.algs4;
-public class Ex_1_1_27 {
+public class Ex_1_1_27b {
     public static double binomial(int N, int k, double p,Counter  c)
         {
 
@@ -34,10 +34,11 @@ public class Ex_1_1_27 {
             return (1 - p)*binomial(N-1, k, p,c) + p*binomial(N-1, k-1, p,c);
             //return p*binomial(N-1, k, p,c) + (1 - p)*binomial(N-1, k-1, p,c);
         }
-    public static void main(String[] args) {
+    public static void main(String[] args)
+        {
         //StdOut.printf("%.6f", binomial(100, 50, 0.25));
         Counter c = new Counter("times");
         StdOut.printf("%.6f\n", binomial(20, 10, 0.5,c));
         StdOut.println(c);
-    }
+        }
 }

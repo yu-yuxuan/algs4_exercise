@@ -18,11 +18,12 @@ public class Ex_1_1_27 {
             if ((N < 0) || (k < 0)) return 0.0;
             c.increment();
             return (1 - p)*binomial(N-1, k, p,c) + p*binomial(N-1, k-1, p,c);
+            //return p*binomial(N-1, k, p,c) + (1 - p)*binomial(N-1, k-1, p,c);
         }
     public static void main(String[] args) {
         //StdOut.printf("%.6f", binomial(100, 50, 0.25));
         Counter c = new Counter("times");
-        StdOut.printf("%.6f\n", binomial(10, 5, 0.5,c));
+        StdOut.printf("%.6f\n", binomial(10, 5, 0.8,c));
         StdOut.println(c);
     }
 }

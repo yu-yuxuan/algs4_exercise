@@ -43,9 +43,8 @@ public class Ex_1_1_29 {
 
             StdOut.println(rank(key, whitelist));
             StdOut.println(cout(key, whitelist));
-            StdOut.println(--key);
-            StdOut.println(key);
-            // while (!StdIn.isEmpty())
+
+             // while (!StdIn.isEmpty())
             // {
             //     int key = StdIn.readInt();
             //     StdOut.println(key);
